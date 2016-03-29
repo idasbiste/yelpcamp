@@ -13,3 +13,13 @@
 .deleteForm {
     display: inline;
 }
+
+.loginForm {
+    width: 30%; 
+    margin: 25px auto;
+}
+
+.flexed {
+    display: flex;
+    flex-wrap: wrap;
+}

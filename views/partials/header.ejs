@@ -4,6 +4,7 @@
         <title>YelpCamp</title>
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
         <link href="/stylesheets/main.css" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-git2.min.js"></script>
     </head>
     <body>
         <nav class="navbar navbar-default">
@@ -31,7 +32,7 @@
                     <%= error %>
                 </div>
             <% } %>
-            <% if (success && success.length > 0) %>
+            <% if (success && success.length > 0) { %>
                 <div class="alert alert-success" role="alert">
                     <%= success %>
                 </div>
