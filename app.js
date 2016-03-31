@@ -13,7 +13,8 @@ var express = require("express"),
     User = require("./models/user"),
     seedDB = require("./seeds"),
     app = express();
-    
+  
+// Routes variables 
 var commentRoutes = require("./routes/comments"),
     campgroundRoutes = require("./routes/campgrounds"),
     authRoutes = require("./routes/index");
@@ -21,7 +22,6 @@ var commentRoutes = require("./routes/comments"),
 // =====================
 //   APP CONFIGURATION
 // =====================
-
 mongoose.connect(process.env.DATABASEURL || "mongodb://localhost/yelpCamp");
 app.use(express.static(__dirname + "/public"));
 app.use(bodyParser.urlencoded({
