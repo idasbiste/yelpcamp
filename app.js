@@ -54,6 +54,7 @@ app.use(function (req, res, next) {
     next();
 });
 
+// ROUTES
 app.use("/", authRoutes);
 app.use("/campgrounds", campgroundRoutes);
 app.use("/campgrounds/:id/comments", commentRoutes);
