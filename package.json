@@ -3,10 +3,6 @@
   "version": "1.0.0",
   "description": "YelpCamp website",
   "main": "app.js",
-  "engines": {
-    "node": "4.1.1",
-    "npm": "2.14.4"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js"
